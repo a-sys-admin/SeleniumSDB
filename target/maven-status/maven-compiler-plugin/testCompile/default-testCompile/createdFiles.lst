@@ -1,2 +1,11 @@
 dev\tests\NetbankTestclass.class
+dev\tests\JointChequepaymentTestclass.class
+dev\tests\JointCashpaymentTestclass.class
+dev\tests\UserCreationApproveTestclass.class
+dev\tests\JointNetbankingTestclass.class
 dev\tests\NewBoxCreationTest.class
+dev\tests\JointCreditpaymentTestclass.class
+dev\tests\AddCustomerTest.class
+dev\tests\CashPaymentTestclass.class
+dev\tests\CreditpaymentTestclass.class
+dev\tests\ChequepaymentTestclass.class

@@ -1,1 +1,16 @@
+dev\testing\UserCreationApprove.class
+dev\newboxtest\NewBoxCreationApprove.class
 dev\config\Config.class
+dev\newboxtest\JointCreditpayment.class
+dev\testing\AddCustomer.class
+dev\newboxtest\Constants.class
+dev\newboxtest\JointNetBanking.class
+dev\newboxtest\JointCashpayment.class
+dev\newboxtest\CreditPayment.class
+dev\newboxtest\Netbanking.class
+dev\newboxtest\CashPayment.class
+dev\utils\ExcelUtils.class
+dev\utils\ScreenshotUtil.class
+dev\newboxtest\ChequePayment.class
+dev\newboxtest\JointChequepayment.class
+dev\testing\TerminationBoxApprove.class
