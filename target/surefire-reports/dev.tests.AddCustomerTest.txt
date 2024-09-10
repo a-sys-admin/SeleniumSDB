@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: dev.tests.AddCustomerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.488 s <<< FAILURE! - in dev.tests.AddCustomerTest
+dev.tests.AddCustomerTest.testAddNewCustomer  Time elapsed: 9.366 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input aria-invalid="false" autocomplete="off" id=":r1s:" readonly="" required="" type="text" aria-readonly="true" aria-label="Choose date" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall Mui-readOnly MuiInputBase-readOnly css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input" value=""> is not clickable at point (809, 270). Other element would receive the click: <div role="row" class="MuiDayPicker-weekContainer css-ghi3gg-MuiDayPicker-weekContainer">...</div>
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9695f9fee92d57925a2567b441a2c677, clickElement {id=f.501C80E5C9E15A75314E84424A6DCF60.d.64B62DCFDD654DBEFC96D918E367822D.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\A-SUDH~1.P\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62559/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9695f9fee92d57925a2567b441a2c677)] -> xpath: //div[@class='MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root'][1]//input[@aria-label='Choose date']]
+Session ID: 9695f9fee92d57925a2567b441a2c677
+	at dev.tests.AddCustomerTest.testAddNewCustomer(AddCustomerTest.java:51)
+

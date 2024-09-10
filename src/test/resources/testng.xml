@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDB Testing Suite" verbose="1" parallel="false">
+
+    <!-- Define your test group -->
+    <test name="SDB Tests">
+        <classes>
+            <!-- Specify the test classes -->
+            <class name="dev.tests.NetbankTestclass"/>
+            <class name="dev.tests.NewBoxCreationTest"/>
+            <class name="dev.tests.UserCreationApproveTestClass"/>
+            <class name="dev.tests.CashPaymentTestclass"/>
+            <class name="dev.tests.NetbankTestclass"/>
+            <class name="dev.tests.NetbankTestclass"/>
+        </classes>
+    </test>
+
+</suite>

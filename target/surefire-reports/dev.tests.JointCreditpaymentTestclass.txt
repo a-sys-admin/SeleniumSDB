@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: dev.tests.JointCreditpaymentTestclass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.034 s <<< FAILURE! - in dev.tests.JointCreditpaymentTestclass
+dev.tests.JointCreditpaymentTestclass.testLoginAsMaster  Time elapsed: 28.37 s  <<< FAILURE!
+java.lang.AssertionError: 
+Test failed due to exception: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div/div[1]/div/div/p/main/div/div[3]/div/div[2]/div[2]/div/div/div/div[1]/div[4]/div/button[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\A-SUDH~1.P\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63592/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4d19a41a57faac867faf909344ecedc expected [true] but found [false]
+	at dev.tests.JointCreditpaymentTestclass.testLoginAsMaster(JointCreditpaymentTestclass.java:47)
+

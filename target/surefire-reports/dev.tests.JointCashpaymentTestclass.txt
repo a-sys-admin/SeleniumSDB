@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: dev.tests.JointCashpaymentTestclass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.383 s <<< FAILURE! - in dev.tests.JointCashpaymentTestclass
+dev.tests.JointCashpaymentTestclass.testLoginAsMaster  Time elapsed: 33.892 s  <<< FAILURE!
+java.lang.AssertionError: 
+Test failed due to exception: stale element reference: stale element not found in the current frame
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [015d7cf827c9b271416100e8a4867b0f, clickElement {id=f.7166B499A46B1F787F78B51DDA788C8F.d.99A27DFCFABECA1EE52635E2003AC2D0.e.420}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\A-SUDH~1.P\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64028/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (015d7cf827c9b271416100e8a4867b0f)] -> css selector: [data-testid='EastIcon']]
+Session ID: 015d7cf827c9b271416100e8a4867b0f expected [true] but found [false]
+	at dev.tests.JointCashpaymentTestclass.testLoginAsMaster(JointCashpaymentTestclass.java:47)
+

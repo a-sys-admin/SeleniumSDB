@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: dev.tests.NetbankTestclass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.192 s <<< FAILURE! - in dev.tests.NetbankTestclass
+dev.tests.NetbankTestclass.testLoginAsMaster  Time elapsed: 62.535 s  <<< FAILURE!
+java.lang.AssertionError: 
+Test failed due to exception: Expected condition failed: waiting for element to be clickable: By.cssSelector: [data-testid='SupportAgentIcon'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\A-SUDH~1.P\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64503/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12f01fb419d9f7cb7446ccd668a613c6 expected [true] but found [false]
+	at dev.tests.NetbankTestclass.testLoginAsMaster(NetbankTestclass.java:47)
+
